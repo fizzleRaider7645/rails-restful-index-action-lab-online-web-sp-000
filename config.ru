@@ -3,3 +3,4 @@
 require ::File.expand_path('../config/environment', __FILE__)
 use StudentsController
 run Rails.application
+run ApplicationController
