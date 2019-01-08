@@ -1,5 +1,6 @@
 class StudentsController < ApplicationController
-  def index
+  get '/students' do
     @students = Student.all
+    erb :'students/index.erb.html'
   end
 end
