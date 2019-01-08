@@ -1,3 +1,4 @@
 class StudentsController < ApplicationController
-def index
+  def index do
+  end
 end
